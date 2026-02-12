@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body onload="initialize()">
+
+    <h1>Interactive Photowalk Gallery</h1>
+
+    
+    <div id="image"></div>
+
+    
+    <div id="description">✨ Hover or TAB through the images below ✨</div>
+
+    <section class="gallery">
+
+        <figure>
+            <img src="DSC_0462.jpg"
+                 alt="BUILDING"
+                 onmouseover="upDate(this)"
+                 onmouseleave="undo()"
+                 onfocus="upDate(this)"
+                 onblur="undo()">
+        </figure>
+
+        <figure>
+            <img src="DSC_0464.jpg"
+                 alt="MOTOR CYCLE"
+                 onmouseover="upDate(this)"
+                 onmouseleave="undo()"
+                 onfocus="upDate(this)"
+                 onblur="undo()">
+        </figure>
+
+        <figure>
+            <img src="DSC_0543.jpg"
+                 alt="TREES WITH FLOWERS"
+                 onmouseover="upDate(this)"
+                 onmouseleave="undo()"
+                 onfocus="upDate(this)"
+                 onblur="undo()">
+        </figure>
+
+        <figure>
+            <img src="DSC_0574.jpg"
+                 alt="RED CAR PARKED OUTSIDE"
+                 onmouseover="upDate(this)"
+                 onmouseleave="undo()"
+                 onfocus="upDate(this)"
+                 onblur="undo()">
+        </figure>
+
+        <figure>
+            <img src="DSC_0661.jpg"
+                 alt="DATING AND HAVING A MOMENT"
+                 onmouseover="upDate(this)"
+                 onmouseleave="undo()"
+                 onfocus="upDate(this)"
+                 onblur="undo()">
+        </figure>
+
+        <figure>
+            <img src="DSC_0653.jpg"
+                 alt="RED SHOES ON THE GRASS"
+                 onmouseover="upDate(this)"
+                 onmouseleave="undo()"
+                 onfocus="upDate(this)"
+                 onblur="undo()">
+        </figure>
+
+    </section>
+
+</body>
+</html>
